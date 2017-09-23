@@ -1,2 +1,3 @@
-# tutorial3_1506689370
-Tutorial 3 Kevin Noel Anugrah
+# Menggunakan​​ ​​Model​​ ​​dan​​ ​​Service​​ ​​pada​​ ​​Project​​ ​​Spring​​ ​​Boot
+
+Versi​​:​ ​​2​​​​ ​​(​​20​​ ​​September​​ ​​2017​​)​​​​
