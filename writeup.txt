@@ -1,0 +1,14 @@
+Tutorial 3 kali ini mengajarkan implementasi Model dan Service dalam konsep MVC melalui Spring Boot.
+Model adalah objek yang merepresentasikan informasi dan dapat dimanipulasi oleh Service. 
+
+Jawaban Pertanyaan 1: Halaman bertuliskan "Data berhasil ditambahkan" muncul, menandakan data telah tersimpan.
+Jawaban Pertanyaan 2: Halaman whitelabel error muncul karena parameter gpa yang required kosong.
+Jawaban Pertanyaan 3: Ya, data Student muncul pada halaman.
+Jawaban Pertanyaan 4: Tidak, halaman whitelabel error muncul karena controller tidak menghandle null yang dikembalikan service, di mana terjadi karena student dengan npm 12345 tidak ada/tidak persisten dari proses sebelumnya.
+Jawaban Pertanyaan 5: Ya, data Student muncul pada halaman.
+Jawaban Pertanyaan 6: Ya, semua data Student muncul pada halaman.
+
+Method selectStudent dapat diimplementasi dengan membuat loop pada studentList dan mencompare setiap field npm StudentModel dengan npm yang dicari melalui String.equals() dan mereturn StudentModel yang sesuai.
+
+Fitur pada latihan dapat diimplementasi dengan Path Variable seperti tutorial 2, dan perbedaan ada dalam menghandle objek Optional.
+Method selectStudent dapat diimplementasi dengan membuat loop pada studentList dan mencompare setiap field npm StudentModel dengan npm yang dicari melalui String.equals() dan meremove StudentModel yang sesuai dari studentList.

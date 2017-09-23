@@ -10,6 +10,7 @@ public class StudentModel {
 		this.npm = npm;
 		this.gpa = gpa;		
 	}
+	
 	public String getName() {
 		return name;
 	}

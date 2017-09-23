@@ -6,10 +6,9 @@ import java.util.Optional;
 import com.example.tutorial3.model.StudentModel;
 
 public interface StudentService {
+	void addStudent(StudentModel student);
 	StudentModel selectStudent(String npm);
 	StudentModel selectStudent(Optional<String> npm);
-	boolean deleteStudent(Optional<String> npm);
 	List<StudentModel> selectAllStudents();
-	void addStudent(StudentModel student);
-	
+	boolean deleteStudent(Optional<String> npm);
 }
